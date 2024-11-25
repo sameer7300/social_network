@@ -52,7 +52,7 @@ Persona is a room-based discussion web application built with Django. Users can 
 
 1. Clone the repository:
 
-  https://github.com/sameer7300/social-network.git
+ git clone https://github.com/sameer7300/social-network.git
   cd persona
 
 2.Set up a virtual environment:
