@@ -50,51 +50,51 @@ Persona is a room-based discussion web application built with Django. Users can 
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 
  git clone https://github.com/sameer7300/social-network.git
   cd persona
 
-2.Set up a virtual environment:
+### 2.Set up a virtual environment:
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
-3.Install dependencies:
+### 3.Install dependencies:
 
 pip install -r requirements.txt
 
-
-4.Run migrations:
+ 
+### 4.Run migrations:
 
 python manage.py makemigrations
 python manage.py migrate
 
-5.Create a superuser:
+### 5.Create a superuser:
 
 python manage.py createsuperuser
 
 
-6.Run the development server:
+### 6.Run the development server:
 
 python manage.py runserver
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Usage:
+## Usage:
 
-.Homepage: View and search available rooms and trending topics.
+- Homepage: View and search available rooms and trending topics.
 
-.Room Page: Join discussions and send messages.
+- Room Page: Join discussions and send messages.
 
-.User Profile: View and manage your user profile.
+- User Profile: View and manage your user profile.
 
-.Admin Panel: Manage topics, rooms, and users (superuser access required).
+- Admin Panel: Manage topics, rooms, and users (superuser access required).
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-File Structure
+## File Structure
 
 persona/
 
@@ -120,24 +120,24 @@ persona/
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Contributions are welcome! To contribute:
+## Contributions are welcome! To contribute:
 
-1.Fork the repository.
+### 1.Fork the repository.
 
-Create a feature branch:
+### Create a feature branch:
 
-git checkout -b feature-name
+### git checkout -b feature-name
 
-Commit your changes:
+### Commit your changes:
 
-git commit -m "Description of changes"
+### git commit -m "Description of changes"
 
-Push to your forked repository:
+### Push to your forked repository:
 
-git push origin feature-name
+### git push origin feature-name
 
 
-Open a pull request.
+### Open a pull request.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
