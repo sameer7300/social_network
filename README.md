@@ -122,19 +122,19 @@ persona/
 
 ## Contributions are welcome! To contribute:
 
-### 1.Fork the repository.
+- Fork the repository.
 
-### Create a feature branch:
+- Create a feature branch:
 
-### git checkout -b feature-name
+- git checkout -b feature-name
 
-### Commit your changes:
+- Commit your changes:
 
-### git commit -m "Description of changes"
+- git commit -m "Description of changes"
 
-### Push to your forked repository:
+- Push to your forked repository:
 
-### git push origin feature-name
+- git push origin feature-name
 
 
 ### Open a pull request.
